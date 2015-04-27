@@ -1,0 +1,17 @@
+body{
+	background-color: pink;
+}
+
+h1{
+	border-style: dotted;
+	border-width: 5px;
+	padding: 14px;
+}
+
+input{
+	background-color: yellow;
+}
+
+#lastname{
+	font-weight: bold;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+</head>
+
+<body>
+	<h1>Welcome to the application. Please fill in the following information.</h1>
+	<form action="/application" method="post">
+		<label>First name:
+			<input type="text" name="firstname">
+		</label>
+		<br>
+		<label>Last name:
+			<input id="lastname" type="text" name="lastname">
+		</label>
+		<br>
+		<label>Salary requirement:
+			<input type="text" name="salary">
+		</label>
+		<br>
+		<label>Please select the job you would like to apply for:
+			<input type="radio" name="job" value="software engineer">Software Engineer
+			<input type="radio" name="job" value="qa engineer">QA Engineer
+			<input type="radio" name="job" value="product manager">Product Manager
+		</label>
+		<br>
+		<input type="submit">
+
+	</form>
+</body>
+
+</html>
